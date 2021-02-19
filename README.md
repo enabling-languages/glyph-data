@@ -1,1 +1,1 @@
-# african-data
+# Latin script glyph data
