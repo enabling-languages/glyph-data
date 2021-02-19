@@ -1,0 +1,124 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <title>Glyph inventory</title>
+ <meta name="description" content="">
+ <meta name="author" content="Enabling Languages">
+ <!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+
+<!-- CSS Reset -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+<!-- Milligram CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+
+ <link rel="stylesheet" href="css/mlwt-african.css">
+ <style>
+    .moro {
+        font-feature-settings: "ss01" 0, "litr" 0, "ss04" 1, "bowl" 1, "cv43" 0, "Engs" 0, "cv55" 1, "R_tl" 1;
+    }
+    .default {
+        font-feature-settings: "ss01" 0, "litr" 0, "ss04" 0, "bowl" 0, "cv43" 2, "Engs" 2, "cv55" 0, "R_tl" 0;
+    }
+
+    .glyph {
+        font-size: 2.8rem;
+        text-align: center;
+        font-family: "Charis SIL", "Last Resort", "Last Resort High-Efficiency";
+        color: black;
+    }
+
+    .inline_glyph {
+        font-family: "Charis SIL", "Last Resort", "Last Resort High-Efficiency";
+        color: black;
+    }
+
+    .glyph.uni0110g2,
+    .glyph > .uni0110g2,
+    .inline_glyph.uni0110g2,
+    .inline_glyph > .uni0110g2   {
+        font-family: "Charis Alt", "Last Resort", "Last Resort High-Efficiency";
+    }
+   /* .unsupported {
+        font-family: "Charis Alt", "Charis SIL", "Last Resort", "Last Resort High-Efficiency";
+    } */
+
+    .unsupported {
+        color: red !important;
+    }
+    h1 {text-align: center;}
+
+ </style>
+</head>
+<body>
+<main class="wrapper">
+    <div class="container" id="alphabet">
+        <h1>Latin glyph inventory</h1>
+    </div>
+    
+<div class="container" id="variation">
+
+    <h2>Glyph variation</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Codepoint</th>
+                <th rowspan="2">Reference glyph</th>
+                <th colspan="4">Observed variations</th>
+            </tr>
+            <tr>
+                <td>Glyph 1</td>
+                <td>Glyph 2</td>
+                <td>Glyph 3</td>
+                <td>Glyph 4</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>U+0110</td>
+                <td><span class="glyph uni0110g1">Đ</span></td>
+                <td><span class="glyph uni0110g1">Đ</span></td>
+                <td><span class="glyph uni0110g2 unsupported">Đ</span></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>U+0111</td>
+                <td><span class="glyph uni0111g1">đ</span></td>
+                <td><span class="glyph uni0111g1">đ</span></td>
+                <td><span class="glyph uni0111g2">đ</span></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>U+014A</td>
+                <td><span class="glyph uni014Ag1">Ŋ</span></td>
+                <td><span class="glyph uni014Ag1">Ŋ</span></td>
+                <td><span class="glyph uni014Ag2">Ŋ</span></td>
+                <td><span class="glyph uni014Ag3">Ŋ</span></td>
+                <td><span class="glyph uni014Ag4">Ŋ</span></td>
+            </tr>
+            <tr>
+                <td>U+2C64</td>
+                <td><span class="glyph uni2C64g1">Ɽ</span></td>
+                <td><span class="glyph uni2C64g1">Ɽ</span></td>
+                <td><span class="glyph uni2C64g2">Ɽ</span></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+<p><em>Red glyphs do not have any known font support.</em></p>
+
+</main>
+
+
+ <!--<script src="js/scripts.js"></script>-->
+</body>
+</html>
+
