@@ -1,0 +1,56 @@
+{
+    "014A": {
+        "character": "Ŋ",
+        "name": "LATIN CAPITAL LETTER ENG",
+        "script": "Latn",
+        "codepoint": "U+014A",
+        "variants": {
+            "g1": {
+                "description": "N-form of Eng",
+                "image": "",
+                "languages": [],
+                "otls": [],
+                "Requires smallcaps": 1,
+                "fonts": {
+                    "SIL LCG fonts": "cv43=2"
+                },
+                "notes": "Northern Europe and Australian Indigenous languages. Inherited into Unicode from ISO-8859-* and related encodings."
+            },
+            "g2": {
+                "description": "n-form of Eng with descender",
+                "image": "",
+                "languages": ["din", "dip", "diw", "dib", "dks", "dik"],
+                "otls": ["DNK "],
+                "Requires smallcaps": 1,
+                "fonts": {
+                    "SIL LCG fonts": "cv43=0"
+                },
+                "notes": "Normative glyph in most African languages that use Eng."
+            },
+            "g3": {
+                "description": "n-form of Eng above baseline",
+                "image": "",
+                "languages": [],
+                "otls": [],
+                "Requires smallcaps": 1,
+                "fonts": {
+                    "SIL LCG fonts": "cv43=1"
+                },
+                "notes": ""
+            },
+            "g4": {
+                "description": "Eng with short stem (turned-G form)",
+                "image": "",
+                "languages": [],
+                "otls": [],
+                "Requires smallcaps": 1,
+                "fonts": {
+                    "SIL LCG fonts": "cv43=3"
+                },
+                "notes": "Seen in old documents in Yolŋu languages. Seen in handwritten Moro manuscript."
+            }
+        },
+        "scriptsource": "",
+        "sil_feature": "cv43"
+    }
+}
