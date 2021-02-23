@@ -10,6 +10,21 @@
     "collationRules": "&a<<<A<<aa<<<Aa<<<AA<<ä<<<Ä<<ää<<<Ää<<<ÄÄ&d<<<D<dh<<<Dh<<<DH<e<<<E<<ee<<<Ee<<<EE<<ë<<<Ë<<ëë<<<Ëë<<<ËË<ɛ<<<Ɛ<<ɛɛ<<<Ɛɛ<<<ƐƐ<<ɛ̈<<<Ɛ̈<<ɛ̈ɛ̈<<<Ɛ̈ɛ̈<<<Ɛ̈Ɛ̈&g<<<G<ɣ<<<Ɣ&i<<<I<<ii<<<II<<ï<<<Ï<<ïï<<<Ïï<<<ÏÏ&n<<<N<nh<<<Nh<<<NH<ny<<<Ny<<<NY<ŋ<<<Ŋ<o<<<O<<oo<<<Oo<<<OO<<ö<<<Ö<<öö<<<Öö<<<ÖÖ<ɔ<<<Ɔ<<ɔɔ<<<Ɔɔ<<<ƆƆ<<ɔ̈<<<Ɔ̈<<ɔ̈ɔ̈<<<Ɔ̈ɔ̈<<<Ɔ̈Ɔ̈<t<<<T<th<<<Th<<<TH<u<<<U<<uu<<<UU",
     "otls": ["DNK "],
     "script": "Latn"
+  },
+  "mor": {
+    "exonym": "Moro",
+    "endonym": "",
+    "majuscule": "A B C D Ḏ Đ E Ë Ǝ F G I J K L M N Ñ Ŋ O P R Ɽ S T Ṯ U W Y",
+    "minuscule": "a b c d ḏ đ e ë ǝ f g i j k l m n ñ ŋ o p r ɽ s t ṯ u w y",
+    "variantGlyphs": {
+      "0110": "0110g2",
+      "0111": "0111g2",
+      "014A": "014Ag2",
+      "2C64": "2C64g2"
+    },
+    "collationRules": "",
+    "otls": [],
+    "script": "Latn"
   }
 }
 

@@ -1,4 +1,34 @@
 {
+    "0110": {
+        "character": "Đ",
+        "name": "LATIN CAPITAL LETTER D WITH STROKE (LATIN CAPITAL LETTER D BAR)",
+        "script": "Latn",
+        "codepoint": "0110",
+        "variants": {
+            "g1": {
+                "description": "",
+                "image": "",
+                "languages": [],
+                "otls": [],
+                "Requires smallcaps": 1,
+                "fonts": {
+                    "SIL LCG fonts": ""
+                },
+                "notes": "Default glyph."
+            },
+            "g2": {
+                "description": "",
+                "image": "",
+                "languages": ["mor"],
+                "otls": [],
+                "Requires smallcaps": 1,
+                "fonts": {},
+                "notes": "Used in Moro (mor) publications in Sudan."
+            }
+        },
+        "scriptsource": "",
+        "sil_feature": ""
+    },
     "014A": {
         "character": "Ŋ",
         "name": "LATIN CAPITAL LETTER ENG",
@@ -19,7 +49,7 @@
             "g2": {
                 "description": "n-form of Eng with descender",
                 "image": "",
-                "languages": ["din", "dip", "diw", "dib", "dks", "dik"],
+                "languages": ["din", "dip", "diw", "dib", "dks", "dik", "mor"],
                 "otls": ["DNK "],
                 "Requires smallcaps": 1,
                 "fonts": {

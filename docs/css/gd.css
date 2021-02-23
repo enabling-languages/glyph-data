@@ -1,0 +1,85 @@
+
+
+    .moro {
+        font-feature-settings: "ss01" 0, "litr" 0, "ss04" 1, "bowl" 1, "cv43" 0, "Engs" 0, "cv55" 1, "R_tl" 1;
+    }
+    .default {
+        font-feature-settings: "ss01" 0, "litr" 0, "ss04" 0, "bowl" 0, "cv43" 2, "Engs" 2, "cv55" 0, "R_tl" 0;
+    }
+
+    .glyph {
+        font-size: 2.8rem;
+        text-align: center;
+        font-family: "Charis SIL", "Last Resort", "Last Resort High-Efficiency";
+        color: black;
+    }
+
+    .inline_glyph {
+        font-family: "Charis SIL", "Last Resort", "Last Resort High-Efficiency";
+        color: black;
+    }
+
+    .glyph.uni0110g2,
+    .glyph > .uni0110g2,
+    .inline_glyph.uni0110g2,
+    .inline_glyph > .uni0110g2   {
+        font-family: "Charis Alt", "Last Resort", "Last Resort High-Efficiency";
+    }
+   /* .unsupported {
+        font-family: "Charis Alt", "Charis SIL", "Last Resort", "Last Resort High-Efficiency";
+    } */
+
+    .unsupported {
+        color: red !important;
+    }
+    h1 {text-align: center;}
+
+
+
+
+
+nav { margin-bottom: 10px; background-color: #606c76; padding: 14px 16px;}
+
+.navigation-title { color: white; }
+
+.navigation-title:hover {
+      /*background-color: #b6b6b6;*/
+      color: white;
+      
+  }
+  
+  nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      
+  }
+  
+  nav ul.float-right {
+      float: right;
+  }
+
+  nav ul.float-right li {
+      margin-bottom: 0;
+      float: right;
+  }
+
+   {
+    
+  }
+  
+  nav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 0 16px;
+      text-decoration: none;
+  }
+  
+  nav li a:hover {
+      /*background-color: #b6b6b6;*/
+      color: white;
+      padding: 0 16px;
+  }
+  

@@ -67,11 +67,20 @@
  */
 
 
-:lang(mor) {
+:lang(mor),
+.moro {
     /* Charis SIL, Doulos SIL, Gentium Plus */
     font-feature-settings: "ss01" 0, "litr" 0, "ss04" 1, "bowl" 1, "cv43" 0, "Engs" 0, "cv55" 1, "R_tl" 1;
     /* Andika  */
     /* font-feature-settings: "ss01" 1, "litr" 0, "ss04" 1, "bowl" 1, "cv43" 0, "Engs" 0, "cv55" 1, "R_tl" 1; */
+}
+
+:lang(din),
+.dinka {
+    /* Charis SIL, Doulos SIL, Gentium Plus */
+    font-feature-settings: "ss01" 0, "litr" 0, "cv43" 0, "Engs" 0;
+    /* Andika  */
+    /* font-feature-settings: "ss01" 1, "litr" 0, "cv43" 0, "Engs" 0; */
 }
 
 /* U+0110 Đ */
