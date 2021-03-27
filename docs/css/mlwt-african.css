@@ -114,6 +114,19 @@
     font-feature-settings: "cv43" 3, "Engs" 3;
 }
 
+/*  ‎OGONEK: U+0328 ◌̨ ; U+0104 Ą ; U+0105 ą  */
+
+.uni0328g1,
+.uni0104g1,
+.uni0105g1 {
+    font-feature-settings: "cv76" 0, "ogon" 0;
+}
+.uni0328g2,
+.uni0104g2,
+.uni0105g2 {
+    font-feature-settings: "cv76" 1, "ogon" 1;
+}
+
 /* U+2C64 Ɽ */
 .uni2C64g1 {
     font-feature-settings: "cv55" 0, "R_tl" 0;
