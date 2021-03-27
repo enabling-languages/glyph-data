@@ -29,9 +29,14 @@
         font-family: "Charis Alt", "Charis SIL", "Last Resort", "Last Resort High-Efficiency";
     } */
 
-    .unsupported {
+    .variant {
+        color: darkolivegreen;
+    }
+    .unsupported, .variant.unsupported {
         color: red !important;
     }
+
+
     h1 {text-align: center;}
 
 

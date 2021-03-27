@@ -118,12 +118,32 @@
 
 .uni0328g1,
 .uni0104g1,
-.uni0105g1 {
+.uni0105g1,
+.uni0118g1,
+.uni0119g1,
+.uni012Eg1,
+.uni012Fg1,
+.uni0172g1,
+.uni0173g1,
+.uni01EAg1,
+.uni01EBg1,
+.uni01ECg1,
+.uni01EDg1 {
     font-feature-settings: "cv76" 0, "ogon" 0;
 }
 .uni0328g2,
 .uni0104g2,
-.uni0105g2 {
+.uni0105g2,
+.uni0118g2,
+.uni0119g2,
+.uni012Eg2,
+.uni012Fg2,
+.uni0172g2,
+.uni0173g2,
+.uni01EAg2,
+.uni01EBg2,
+.uni01ECg2,
+.uni01EDg2 {
     font-feature-settings: "cv76" 1, "ogon" 1;
 }
 
